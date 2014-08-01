@@ -1,0 +1,92 @@
+/* RESET */
+*{margin:0; padding:0;}
+body{background: url(images/bg_topo.jpg) repeat-x #EEE; font: 12px Tahoma, Arial, Verdana; color: #333;}
+a{text-decoration:none;}
+
+#wrap{margin:0 auto; width:1000px;}
+
+.clear{clear: both;}
+.bt_padrao{background:url(images/bg_button.jpg) repeat-x; height:21px; color: #FFF; font-weight:bold; padding-top:7px; border-radius:6px; text-decoration:none; text-align:center;}
+
+
+/* HEADER */
+#header{height:172px; float:left;}
+
+#header #bar{height:21px; color: #FFF; padding-top:6px; font-size:11px;}
+#header #bar a{text-decoration: none; color:#FFF;}
+#header #bar a:hover{text-decoration:underline;}
+#header #center{height:92px;}
+#header #logo{height:44px; float:left; margin:20px 10px;}
+
+#header #search{background:url(images/bg_search.jpg) repeat-x; width:244px; height:31px; float: right; margin-top:30px; border-radius:8px; padding:1px;}
+#header #search #search_text{background: #FFF; border-radius:6px; width:164px; height:31px; float:left;}
+#header #search #search_value{width:155px; height:27px; padding:2px; margin:0 6px; border:0;}
+#header #search #search_submit{float: right; width:80px; height:30px; background: none; margin:0; padding:0; border:0; color:#FFF;}
+
+#header #menu{width: 1000px;}
+#header #menu_links{margin:13px 0; padding:0; float:left;}
+#header #menu_links li{list-style:none; float:left; margin-left:20px; margin-right:20px; font-size:14px; font-weight:600;}
+#header #menu_links li a{text-decoration:none; color:#FFF;}
+#header #menu_links li a:hover{text-decoration:underline;}
+
+#header #carrinho{margin:13px 0; padding:0; float:right;}
+#header #carrinho li{list-style:none; float:left; margin-left:20px; margin-right:20px; font-size:14px; font-weight:600;}
+#header #carrinho li a{text-decoration:none; color:#FFF;}
+#header #carrinho li a:hover{text-decoration:underline;}
+
+
+/* SIDEBAR */
+#sidebar{background: #FFF; border:1px solid #CCC; padding:10px; float:left; width:215px;}
+
+#sidebar ul{margin:0; padding:0; list-style:none;}
+#sidebar ul li{background: url(images/bg_top-sidebar.jpg) no-repeat; width:215px; height:15px; padding:11px; font-size:14px; color:#FFF; font-weight:bold; margin-bottom:3px;}
+
+#sidebar ol{list-style:none; border-bottom: 2px solid #FF8F00; margin-bottom:3px;}
+#sidebar ol li{background: #FFF; height:auto; padding: 4px 0; color: #333; font-weight:normal; font-size:12px;}
+#sidebar ol li.categoria{background: #EEE; margin-bottom:1px; padding:5px; width:205px;}
+
+#sidebar .mais_visitados{height:60px; padding:8px 0 8px;border-bottom: 1px solid #FF8F00;}
+#sidebar .mais_visitados .titulo{width: 153px; float:right; font-size:14px; height:33px;}
+#sidebar .mais_visitados .preco{background:url(images/bg_valor2.jpg) bottom center no-repeat; width:120px; float:right; height:30px; text-align:center; font-size:16px;}
+
+
+/* CONTENT */
+#content{background: #FFF; border:1px solid #CCC; padding:10px; float:right; width:730px;}
+#content #destaque{background: #333; width:730px; height:250px; color: #FFF;}
+
+#content #produtos_destaques{margin-top:10px;}
+#content #produtos_destaques ul{list-style: none; margin:0; padding:0;}
+#content #produtos_destaques ul li{width:170px; text-align:center; float:left; margin-right:6px; margin-left:6px; margin-bottom:15px;}
+#content #produtos_destaques ul li .titulo{font-size: 18px;}
+#content #produtos_destaques ul li .imagem{width:170px;}
+#content #produtos_destaques ul li img{margin: 15px 0 15px 0;}
+#content #produtos_destaques ul li .preco{font-size: 22px; background:url(images/bg_valor1.jpg) bottom center no-repeat; height:35px; margin-bottom:10px; width:170px;}
+#content #produtos_destaques ul li a{color: #333;}
+
+#content #mais_produtos{margin-top:20px;}
+#content #mais_produtos h1{font-size:20px; margin:0; padding:0; font-weight: normal; border-bottom: 2px solid #FF8F00; margin-bottom:5px;}
+#content #mais_produtos ul{list-style: none; margin:0; padding:0;}
+#content #mais_produtos ul li{width:140px; text-align:center; float:left; margin-right:3px; margin-left:3px; margin-bottom:20px;}
+#content #mais_produtos ul li .titulo{font-size: 14px; }
+#content #mais_produtos ul li .imagem{width:140px;}
+#content #mais_produtos ul li img{margin: 15px 0 15px 0;}
+#content #mais_produtos ul li .preco{font-size: 18px; background:url(images/bg_valor1.jpg) bottom center no-repeat; height:30px; margin-bottom:5px; width:140px;}
+
+
+/* FOOTER */
+#footer{background: #FFF; border:1px solid #CCC; padding:15px; float:left; width:970px; margin-top:70px; height:120px; margin-bottom:40px;}
+#footer #logo_footer{float:left; width:265px; margin: 35px 10px;}
+
+#footer #footer_1{float:left; width: 364px;}
+#footer #footer_1 #menu_footer{list-style: none; margin:0; padding:0; width:auto; height:30px; margin-top:15px;}
+#footer #footer_1 #menu_footer li{float: left; margin-right:8px; margin-left:8px;}
+#footer #footer_1 #menu_footer li a{text-decoration:none; color: #333; font-weight:bold;}
+
+#footer #footer_1 #infos{list-style: none;}
+#footer #footer_1 #infos li{float: left; padding:8px;}
+#footer #footer_1 #infos li.redes_sociais{margin-left:110px; text-align:right;}
+
+#footer #footer_2{float:right; width: 280px;}
+#footer #footer_2 ul{list-style: none; padding:0; margin:0;}
+#footer #footer_2 ul li{float: left; margin-left:10px;}
+#footer #footer_2 ul li a{text-decoration:none; color: #333;}
